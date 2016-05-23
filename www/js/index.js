@@ -19,7 +19,7 @@ var app = {
        // app.receivedEvent('deviceready');
 	   //window.open('http://youfeellike.sharedin.net', '_blank', 'location=no')
 	   var inAppBrowserbRef;
-       inAppBrowserbRef = window.open('http://movieme.ovplatform.tk', '_blank', 'location=no,toolbar=no');
+       inAppBrowserbRef = window.open('http://ramadan2016.ovplatform.tk', '_blank', 'location=no,toolbar=no');
          inAppBrowserbRef.addEventListener('loadstart', inAppBrowserbLoadStart);
          inAppBrowserbRef.addEventListener('loadstop', inAppBrowserbLoadStop);
          inAppBrowserbRef.addEventListener('loaderror', inAppBrowserbLoadError);
