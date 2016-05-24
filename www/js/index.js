@@ -19,12 +19,13 @@ var app = {
        // app.receivedEvent('deviceready');
 	   //window.open('http://youfeellike.sharedin.net', '_blank', 'location=no')
 	   var inAppBrowserbRef;
-	   admob.initAdmob("ca-app-pub-7251676025279948/7827344712","ca-app-pub-7251676025279948~6350611517");
+	   
        inAppBrowserbRef = window.open('http://ramadan2016.ovplatform.tk', '_blank', 'location=no,toolbar=no');
          inAppBrowserbRef.addEventListener('loadstart', inAppBrowserbLoadStart);
          inAppBrowserbRef.addEventListener('loadstop', inAppBrowserbLoadStop);
          inAppBrowserbRef.addEventListener('loaderror', inAppBrowserbLoadError);
          inAppBrowserbRef.addEventListener('exit', inAppBrowserbClose);
+		admob.initAdmob("ca-app-pub-7251676025279948/7827344712","ca-app-pub-7251676025279948~6350611517");
 		admob.showBanner(admob.BannerSize.BANNER, admob.Position.BOTTOM_APP);
 
     },
